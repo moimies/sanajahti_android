@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/etsiactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:background="@drawable/ocean">
+
+
+    <TextView
+        android:id="@+id/words_found"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:background="@color/black"
+        >
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/takaisin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="X"
+        android:textColor="#e71e28"
+        android:background="@color/black"
+        android:layout_alignLeft="@+id/words_found"
+        android:layout_alignBottom="@+id/words_found"
+
+        >
+
+    </Button>
+
+
+
+
+</RelativeLayout>

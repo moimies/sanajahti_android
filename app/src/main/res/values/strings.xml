@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Appi</string>
+    <string name="letters">ABCDEFGHIJKLMNOPQRSTUVWXYZÖÄÅabcdefghijklmnopqrstuvwxyzåöä</string>
+</resources>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tausta"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:background="@drawable/ocean"
+    android:paddingTop="20dp"
+    >
+
+
+    <GridLayout
+        android:id="@+id/gridi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:background="#277abe"
+        android:layout_gravity="center_horizontal"
+        >
+
+
+
+
+        <EditText
+            android:id="@+id/letter1"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="A"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+        <EditText
+            android:id="@+id/letter2"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="I"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+        <EditText
+            android:id="@+id/letter3"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="K"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+            />
+        <EditText
+            android:id="@+id/letter4"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="O"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+
+            />
+        <EditText
+            android:id="@+id/letter5"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="P"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+        <EditText
+            android:id="@+id/letter6"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="I"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+        <EditText
+            android:id="@+id/letter7"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="Y"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+        <EditText
+            android:id="@+id/letter8"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="Ä"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+            />
+        <EditText
+            android:id="@+id/letter9"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="Ä"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+        <EditText
+            android:id="@+id/letter10"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="V"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+        <EditText
+            android:id="@+id/letter11"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="S"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+        <EditText
+            android:id="@+id/letter12"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="J"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+        <EditText
+            android:id="@+id/letter13"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="J"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+        <EditText
+            android:id="@+id/letter14"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="I"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+
+        <EditText
+            android:id="@+id/letter15"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="Ä"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+
+            />
+        <EditText
+            android:id="@+id/letter16"
+            style="@style/txtStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="T"
+            android:maxLength="1"
+            android:background="@drawable/letter_background"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+
+            />
+
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/nollaa"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Tyhjennä"
+        android:layout_below="@id/gridi"
+        android:backgroundTint="@color/black"/>
+    <Button
+        android:id="@+id/etsi"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Etsi"
+        android:layout_alignRight="@id/gridi"
+        android:layout_alignTop="@id/nollaa"
+        android:backgroundTint="#9fe9b7"/>
+
+
+</RelativeLayout>
